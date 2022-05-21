@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Helvetica Neue', sans-serif;
+}
+body{
+    background-color: #5B4DB2;
+}
+.container{
+    /* border: 2px solid red; */
+    background-color: #ffffff;
+    border-radius: 10px;
+    max-width: 400px;
+    position: relative;
+    top: 10vh;
+    margin: auto;
+    padding: 10px;
+}
+.container h1{
+    text-align: center;
+    padding: 10px;
+}
+.detailcontainer{
+    /* margin: 10px; */
+    padding: 10px 2px;
+    /* border: 2px solid red; */
+
+    /* overflow: hidden; */
+}
+.detailcontainer label{
+    display: block;
+    margin: 5px 0;
+    font-weight: 500;
+    font-size: 20px;
+}
+.detailcontainer input{
+    display: inline-block;
+    width: 95%;
+    font-size: 16px;
+    padding:5px;
+    border-radius: 5px;
+    border: 2px solid black;
+    outline: none;
+}
+.detailcontainer #submit{
+    background-color: #483D8C;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 8px;
+}
+.errormessage{
+    height: 10px;
+    margin-top: 5px;
+    color: red;
+    font-size: 15px;
+}
+.fa-check-circle{
+    color: green;
+    font-size: 16px;
+    float: right;
+    position: relative;
+    top: 10px;
+    right: 25px;
+    
+}
+.fa-exclamation-circle{
+    font-size: 16px;
+    color: red;
+    position: relative;
+    float: right;
+    top: 10px;
+    right: 25px;
+}
